@@ -1,0 +1,19 @@
+.{
+    .name = "zig-sokol-textured-quad",
+    .version = "0.0.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+    .dependencies = .{
+        .zstbi = .{
+            .url = "git+https://github.com/zig-gamedev/zstbi?ref=HEAD#3809262fe582e5128f8ec95eb94235783e185a26",
+            .hash = "122009ea2ff8496071dbe447731a62e6c7c731b6aca5ac3a01992a8d3330d4482a88",
+        },
+        .sokol = .{
+            .url = "git+https://github.com/floooh/sokol-zig.git#fe47d2055d7b86bdcbaf02610109b1f1aa5dfdc1",
+            .hash = "12201b62a6fd9e15e0b78a4fbcda3ac907a423446c68c6b8614c9b3b21d24a955639",
+        },
+    },
+}
